@@ -1,0 +1,54 @@
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.flex-1 {
+    flex-grow: 1;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.font-style {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    background-color: #efefef;
+}
+
+.sign-up-button {
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+img {
+    display: block;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
