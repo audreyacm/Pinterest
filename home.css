@@ -1,0 +1,22 @@
+.feed-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.pin {
+    width: 236px;
+}
+
+.pin-image {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.pin-title {
+    padding-top: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Pin - Pinterest</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="create.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="assets/logo.svg"/></a>
+        <a href="explore.html" class="cursor-pointer">Explore</a>
+        <div class="flex-1"></div>
+        <a href="create.html" class="cursor-pointer">Create</a>
+        <a href="login.html">
+            <button class="">Login</button>
+        </a>
+        <a href="register.html">
+            <button class="sign-up-button">Signup</button>
+        </a>
+    </header>
+
+    <main>
+        <div class="create-container">
+            <div class="create-header">
+                <div class="create-title">Create a Pin</div>
+                <button class="save-button">Save</button>
+            </div>
+
+            <div class="create-content">
+                <div class="upload-column">
+                    <div class="upload-box">
+                        <img src="assets/search.png" class="upload-icon" />
+                        <div class="upload-text">Choose a file or drag and drop it here</div>
+                        <div class="upload-text">We recommend high-quality .jpg files less than 20MB</div>
+                    </div>
+                </div>
+
+                <div class="form-column">
+                    <div>
+                        <input type="text" class="create-input create-input-large" placeholder="Add your title" />
+                    </div>
+                    
+                    <div>
+                        <label class="input-label">Description</label>
+                        <textarea class="create-textarea" placeholder="Tell everyone what your Pin is about"></textarea>
+                    </div>
+
+                    <div>
+                        <label class="input-label">Link</label>
+                        <input type="text" class="create-input" placeholder="Add a destination link" />
+                    </div>
+
+                    <div>
+                        <label class="input-label">Alt text</label>
+                        <input type="text" class="create-input" placeholder="Explain what people can see in the Pin" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
